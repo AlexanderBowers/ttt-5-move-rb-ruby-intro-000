@@ -9,7 +9,7 @@ end
 def input_to_index(input)
   input.to_i
   input - 1
-  return move
+  return input
 end
 
 def move
