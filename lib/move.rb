@@ -9,3 +9,4 @@ end
 def input_to_index
   move = gets.strip
   move.to_i
+  return move
