@@ -13,4 +13,5 @@ end
 
 
 def move(board, user_input, character = "X")
-  puts display_board
+  board[] = user_input
+  
