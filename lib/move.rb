@@ -9,5 +9,6 @@ end
 def input_to_index
   move = gets.strip
   move.to_i
+  move - 1
   return move
 end
