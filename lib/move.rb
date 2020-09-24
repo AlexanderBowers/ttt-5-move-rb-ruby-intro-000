@@ -6,9 +6,9 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-def input_to_index(move)
-  move.to_i
-  move - 1
+def input_to_index(input)
+  input.to_i
+  input - 1
   return move
 end
 
